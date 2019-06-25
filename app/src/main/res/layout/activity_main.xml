@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                                 xmlns:app="http://schemas.android.com/apk/res-auto"
+                                                 android:id="@+id/main_content"
+                                                 android:layout_width="match_parent"
+                                                 android:layout_height="match_parent">
+    <RelativeLayout
+            android:id="@+id/rl_title"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:background="@color/colorPrimary">
+
+        <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:contentDescription="@string/img_des"
+                android:src="@mipmap/wanandroid" />
+        <ImageView
+                android:id="@+id/img_serach"
+                android:padding="10dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:src="@mipmap/img_serach"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+    <FrameLayout
+            android:layout_marginTop="56dp"
+            android:layout_marginBottom="56dp"
+            app:layout_constraintTop_toTopOf="parent"
+            android:id="@+id/container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+             />
+
+    <com.luseen.spacenavigation.SpaceNavigationView
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:id="@+id/space"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            app:active_item_color="@color/colorAccent"
+            app:centre_button_color="@color/colorAccent"
+            app:centre_button_icon="@mipmap/bottom_menu_wechat"
+            app:inactive_item_color="@color/md_grey_400"
+            app:space_background_color="@color/md_white_1000" />
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/ll_base_error_content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:clickable="true"
+    android:orientation="vertical">
+
+    <ImageView
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:id="@+id/iv_base_hint_page_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@mipmap/default_page_network" />
+
+    <TextView
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iv_base_hint_page_icon"
+        android:id="@+id/tv_base_hint_page_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:lines="1"
+        android:text="@string/net_not_force_please_try_refresh"
+        android:textSize="17sp" />
+
+    <Button
+        android:layout_marginTop="36px"
+        app:layout_constraintTop_toBottomOf="@+id/tv_base_hint_page_content"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:id="@+id/bt_error_refresh"
+        android:layout_width="88dp"
+        android:layout_height="44dp"
+        android:text="@string/refresh"
+        android:textColor="@drawable/common_textcolor_states"
+        android:drawable="@drawable/common_textcolor_states" />
+</android.support.constraint.ConstraintLayout>

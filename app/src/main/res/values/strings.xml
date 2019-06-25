@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Kotlin学Android</string>
+    <string name="app_name_des">一个Android开发学习社区</string>
+    <string name="action_settings">Settings</string>
+    <string name="img_des">Material</string>
+    <string name="net_not_force_please_try_refresh">网络不给力，刷新一下试试？</string>
+    <string name="loading">加载中...</string>
+    <string name="refresh">刷新</string>
+    <string name="string_no_data">很抱歉，木有数据哦～</string>
+    <string name="login">登录</string>
+    <string name="input_mm">输入密码</string>
+    <string name="input_zh">输入账号</string>
+    <string name="logout">注销登录</string>
+    <string name="account">请输入账号</string>
+    <string name="mm">请输入密码</string>
+    <string name="re_mm">请确认密码</string>
+    <string name="register">注册</string>
+    <string name="standrd">标准</string>
+    <string name="slide_change_font_size">滑动下面的滑块调整字体大小</string>x
+    <string name="preview_font_size">预览字体大小</string>
+</resources>

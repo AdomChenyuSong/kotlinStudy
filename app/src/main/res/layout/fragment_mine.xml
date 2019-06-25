@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="@string/img_des"
+        android:scaleType="centerCrop"
+        android:src="@drawable/splash"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <TextView
+        android:padding="20dp"
+        android:id="@+id/tv_login"
+        style="@style/Text.Size18ColorAccent"
+        android:drawableTop="@mipmap/user"
+        android:drawablePadding="5dp"
+        android:text="点击登录"
+        app:layout_constraintBottom_toTopOf="@+id/devide_line"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <View
+        android:id="@+id/devide_line"
+        android:layout_width="match_parent"
+        android:layout_height="0.3dp"
+        android:layout_margin="16dp"
+        android:background="@color/md_grey_300"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/tv_mycollect"
+        style="@style/ButtonSize16ColorGray"
+        android:layout_marginTop="@dimen/dp_20"
+        android:text="我的收藏"
+        android:theme="@style/AccentColorButtonTheme"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/devide_line" />
+
+    <Button
+        app:layout_constraintTop_toBottomOf="@+id/tv_mycollect"
+        android:id="@+id/tv_mine"
+        style="@style/ButtonSize16ColorGray"
+        android:text="我的TODO"
+        android:theme="@style/AccentColorButtonTheme"
+        android:visibility="gone"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <Button
+        android:id="@+id/tv_logout"
+        style="@style/ButtonSize16ColorGray"
+        android:text="注销登录"
+        android:theme="@style/AccentColorButtonTheme"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_mine" />
+
+</android.support.constraint.ConstraintLayout>

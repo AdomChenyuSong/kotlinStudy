@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">@color/md_white_1000</color>
+    <color name="colorPrimaryDark">@color/md_grey_200</color>
+    <color name="colorAccent">@color/md_blue</color>
+    <color name="windowBackground">@color/md_grey_100</color>
+    <color name="colorNavigation">@color/md_grey_700</color>
+
+    <!-- teal -->
+    <color name="md_teal_50">#e0f2f1</color>
+    <color name="md_teal_100">#b2dfdb</color>
+    <color name="md_teal_200">#80cbc4</color>
+    <color name="md_teal_300">#4db6ac</color>
+    <color name="md_teal_400">#26a69a</color>
+    <color name="md_teal_500">#009688</color>
+
+    <!--orange-->
+    <color name="md_orange_50">#fff3e0</color>
+    <color name="md_orange_100">#ffe0b2</color>
+    <color name="md_orange_200">#ffcc80</color>
+    <color name="md_orange_300">#ffb74d</color>
+    <color name="md_orange_400">#ffa726</color>
+    <color name="md_orange_500">#ff9800</color>
+
+    <!--grey-->
+    <color name="md_grey_50">#fafafa</color>
+    <color name="md_grey_100">#f5f5f5</color>
+    <color name="md_grey_200">#eeeeee</color>
+    <color name="md_grey_300">#e0e0e0</color>
+    <color name="md_grey_400">#bdbdbd</color>
+    <color name="md_grey_500">#9e9e9e</color>
+    <color name="md_grey_600">#757575</color>
+    <color name="md_grey_700">#616161</color>
+    <color name="md_grey_800">#424242</color>
+    <color name="md_grey_900">#212121</color>
+    <color name="md_black_1000">#000000</color>
+    <color name="md_white_1000">#ffffff</color>
+
+    <!--reds-->
+    <color name="md_red_50">#fde0dc</color>
+    <color name="md_red_100">#f9bdbb</color>
+    <color name="md_red_200">#f69988</color>
+    <color name="md_red_300">#f36c60</color>
+
+    <color name="md_blue">#33A1C9</color>
+    <color name="md_blue_dark">#3098be</color>
+    <color name="light_color_blue">#e4f2ff</color>
+    <color name="light_blue_line">#cadffc</color>
+
+    <color name="md_yellow_200">#fff59d</color>
+    <color name="md_yellow_300">#fff176</color>
+    <color name="md_green_200">#72d572</color>
+    <color name="md_light_blue_300">#4fc3f7</color>
+    <color name="md_light_green_300">#aed581</color>
+    <color name="md_light_green_100">#bbe58a</color>
+
+    <color name="tag_bg_red">#33F44336</color>
+    <color name="tag_bd_red">#88F44336</color>
+    <color name="tag_bg_orange">#33FF9800</color>
+    <color name="tag_bd_orange">#88FF9800</color>
+    <color name="tag_bg_yellow">#33FFEB3B</color>
+    <color name="tag_bd_yellow">#88FFEB3B</color>
+    <color name="tag_bg_blue">#332196F3</color>
+    <color name="tag_bd_blue">#882196F3</color>
+    <color name="tag_bg_indigo">#333F51B5</color>
+    <color name="tag_bd_indigo">#883F51B5</color>
+    <color name="tag_bg_light_green">#338BC34A</color>
+    <color name="tag_bd_light_green">#888BC34A</color>
+    <color name="tag_bg_teal">#33009688</color>
+    <color name="tag_bd_teal">#88009688</color>
+    <color name="tag_bg_deep_purple">#33673AB7</color>
+    <color name="tag_bd_deep_purple">#88673AB7</color>
+    <color name="transparent">#00000000</color>
+    <color name="color_1">#EF9A9A</color>
+    <color name="color_2">#E53935</color>
+    <color name="color_3">#F8BBD0</color>
+    <color name="color_4">#D81B60</color>
+    <color name="color_5">#880E4F</color>
+    <color name="color_6">#CE93D8</color>
+    <color name="color_7">#8E24AA</color>
+    <color name="color_8">#4A148C</color>
+    <color name="color_9">#B39DDB</color>
+    <color name="color_10">#673AB7</color>
+    <color name="color_11">#311B92</color>
+    <color name="color_12">#3D5AFE</color>
+    <color name="color_13">#29B6F6</color>
+    <color name="color_14">#26C6DA</color>
+    <color name="color_15">#26A69A</color>
+    <color name="color_16">#4CAF50</color>
+    <color name="color_17">#8BC34A</color>
+    <color name="color_18">#CDDC39</color>
+    <color name="color_19">#FFEB3B</color>
+    <color name="color_20">#FFC107</color>
+    <color name="color_21">#FF9800</color>
+    <color name="color_22">#FF5722</color>
+    <color name="color_23">#795548</color>
+    <color name="color_24">#9E9E9E</color>
+    <color name="color_25">#607D8B</color>
+    <color name="activity_bg_color">#ffffff</color>
+</resources>
